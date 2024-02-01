@@ -4,8 +4,8 @@ import joblib
 
 
 # Load the preprocessor and model
-preprocessor = joblib.load('D:/Projects/Concrete_Prediction/Concrete_Compressive_Strength_Prediction/model/compressive_strength_preprocessor.joblib')
-model = joblib.load('D:/Projects/Concrete_Prediction/Concrete_Compressive_Strength_Prediction/model/compressive_strength_model.joblib')
+preprocessor = joblib.load('model/compressive_strength_preprocessor.joblib')
+model = joblib.load('model/compressive_strength_model.joblib')
 
 def predict_compressive_strength(cement, blast_furnace_slag, fly_ash, water, superplasticizer, coarse_aggregate, fine_aggregate, age):
     data_dict = {
