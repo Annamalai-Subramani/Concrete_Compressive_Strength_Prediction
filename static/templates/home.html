@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concrete Compressive Strength Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+</head>
+<body>
+    <div class="main">
+        <div class="form">
+            <div class="title">
+                <h1>Concrete Compressive Strength Prediction</h1>
+            </div>
+            <div class="title">Enter the details:</div>
+            <form id="form" action="{{ url_for('ConcretePredict') }}" method="POST">
+                <div class="user-details">
+
+                    <div class="input">
+                        <label class="input-name">Cement</label>
+                        <input type="text" name="cement" required>
+                    </div>
+
+                    <div class="input">
+                        <label class="input-name">Blast Furnace Slag</label>
+                        <input type="text" name="blast_furnace_slag" required>
+                    </div>
+
+                    <div class="input">
+                        <label class="input-name">Fly Ash</label>
+                        <input type="text" name="fly_ash" required>
+                    </div>
+
+                    <div class="input">
+                        <label class="input-name">Water</label>
+                        <input type="text" name="water" required>
+                    </div>
+
+                    <div class="input">
+                        <label class="input-name">Superplasticizer</label>
+                        <input type="text" name="superplasticizer" required>
+                    </div>
+
+                    <div class="input">
+                        <label class="input-name">Coarse Aggregate</label>
+                        <input type="text" name="coarse_aggregate" required>
+                    </div>
+
+                    <div class="input">
+                        <label class="input-name">Fine Aggregate</label>
+                        <input type="text" name="fine_aggregate" required>
+                    </div>
+
+                    <div class="input">
+                        <label class="input-name">Age</label>
+                        <input type="text" name="age" required>
+                    </div>
+
+
+                </div>
+                <div class="button">
+                    <input type="submit" value="Predict" style="font-size: larger; font-weight: bold; color: black;">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="prediction" style="color: rgb(241, 241, 137); font-weight: bold; font-size: xx-large; letter-spacing: 2px; border: 2px solid White; border-radius: 5px; margin: 5px; margin-left: 50px; padding: 6px; text-align: center; box-shadow: 0 0 30px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 0, 0, 0.5);">
+        {{ final_result }}
+    </div>
+</body>
+</html>

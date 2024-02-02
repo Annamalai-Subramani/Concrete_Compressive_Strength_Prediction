@@ -1,0 +1,117 @@
+* {
+    margin: 11px;
+    padding: 6px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background: url("../images/black_background_img.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-position: center;
+}
+
+.main .form {
+    max-width: 650px;
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 5px;
+    padding-left: 50px;
+    color: rgb(241, 241, 137);
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Transparent light black background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* shadow effect */
+    max-height: 800px; /* Adjust the height as per your preference */
+    overflow-y: auto; /* Add a vertical scrollbar if needed */
+}
+
+.main .form .title {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 10px;
+}
+
+.main form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input {
+    width: calc(100% / 3 - 20px);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* Shadow effect */
+}
+
+.user-details .input select {
+    height: 15px;
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(241, 110, 110);
+    padding-left: 5px;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Transparent light black background */
+    color: rgb(254, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* Shadow effect */
+}
+
+form .user-details .input select option {
+    background-color: white;
+    color: black;
+}
+
+form .user-details .input select option:checked {
+    background-color: white;
+    color: black;
+}
+
+form .button {
+    height: 35px;
+    margin: 5px 0;
+    padding-left: 25%;
+}
+
+form .button input {
+    height: 100%;
+    width: 50%;
+    outline: none;
+    font-weight: bold;
+    background-color: rgb(157, 236, 183);
+    border-radius: 5px;
+    border: 1px solid #453f3f;
+    letter-spacing: 1px;
+}
+
+form .button input:hover {
+    background-color: rgb(236, 170, 93);
+}
+
+/* Add this to your existing CSS file */
+/* select:hover option[data-image] {
+    display: none; /* Hide the default option text on hover}
+ */
+/* select:hover option[data-image]:hover + #image-container {
+    display: block; /* Show the image container on hover }
+ */
+
+#image-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 10px;
+    /* Adjust the spacing between select and image */
+}
