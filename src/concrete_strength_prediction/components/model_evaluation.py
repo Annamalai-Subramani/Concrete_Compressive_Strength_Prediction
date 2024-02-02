@@ -30,12 +30,12 @@ class ModelEvaluation:
         
 
             #mlflow.set_registry_uri("")
-            mlflow.set_registry_uri("https://dagshub.com/gouthamikrishnamurthy/RestaurantRatingPrediction.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/Annamalai-Subramani/Concrete_Compressive_Strength_Prediction.mlflow")
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
             print(tracking_url_type_store)
 
-
+           
             with mlflow.start_run():
 
                 predicted_qualities = model.predict(X_test)
