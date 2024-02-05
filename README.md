@@ -6,7 +6,7 @@ https://github.com/Annamalai-Subramani/Concrete_Compressive_Strength_Prediction/
 
 # Screenshot
 
-![Concrete](https://github.com/Annamalai-Subramani/Concrete_Compressive_Strength_Prediction/assets/131845401/e3393a3e-2e9b-4505-8f87-95f427210abe)
+![Concrete-2](https://github.com/Annamalai-Subramani/Concrete_Compressive_Strength_Prediction/assets/131845401/2cbad8ae-dc7c-4ded-bda1-eb706bc418be)
 
 
 ## Overview
