@@ -4,6 +4,11 @@
 
 https://github.com/Annamalai-Subramani/Concrete_Compressive_Strength_Prediction/assets/131845401/b844479b-d32f-4510-ae55-bd94de7b0cb4
 
+# Screenshot
+
+![Concrete](https://github.com/Annamalai-Subramani/Concrete_Compressive_Strength_Prediction/assets/131845401/e3393a3e-2e9b-4505-8f87-95f427210abe)
+
+
 ## Overview
 
 This project aims to predict the compressive strength of concrete using machine learning techniques. The compressive strength of concrete is a crucial factor in construction, and predicting it accurately can assist in optimizing the concrete mix design.
