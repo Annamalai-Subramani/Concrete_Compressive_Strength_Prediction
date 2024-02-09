@@ -15,7 +15,7 @@ This project aims to predict the compressive strength of concrete using machine 
 
 ## Dataset
 
-The dataset used for this project is [Concrete Compressive Strength Data](link_to_dataset). It includes various features such as cement, water, and aggregates proportions, which are used to predict the compressive strength.
+The dataset used for this project is [Concrete Compressive Strength Data]. It includes various features such as cement, water, and aggregates proportions, which are used to predict the compressive strength.
 
 ## Project Structure
 
